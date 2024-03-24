@@ -2,6 +2,8 @@ provider "aws" {
   region = "us-east-1"
 }
 
+# IAM Role
+
 resource "aws_iam_role" "admin_role" {
   name = "admin_role"
 
